@@ -1,0 +1,1021 @@
+/* line 17, ../sass/index.scss */
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 23, ../sass/index.scss */
+body {
+  font-family: Arial Narrow, Verdana;
+  color: #f9fae7;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  line-height: 22px;
+  overflow-x: hidden;
+}
+
+/** ANIMATION **/
+/* line 39, ../sass/index.scss */
+.header *, .section *, .footer * {
+  -webkit-transition: all 0.3s 0 ease;
+  -moz-transition: all 0.3s 0 ease;
+  -o-transition: all 0.3s 0 ease;
+  transition: all 0.3s 0 ease;
+  transition-delay: 0s !important;
+}
+
+/** GENERAL **/
+/* line 49, ../sass/index.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 50, ../sass/index.scss */
+a {
+  color: #87877e;
+  text-decoration: none;
+}
+
+/* line 51, ../sass/index.scss */
+a:hover {
+  color: #f9fae7;
+}
+
+/* line 53, ../sass/index.scss */
+.m-0 {
+  margin: 0;
+}
+
+/* line 55, ../sass/index.scss */
+.pad-0 {
+  padding: 0;
+}
+
+/* line 56, ../sass/index.scss */
+.pad-16 {
+  padding: 16px;
+}
+
+/* line 57, ../sass/index.scss */
+.pl-20 {
+  padding-left: 20px;
+}
+
+/* line 58, ../sass/index.scss */
+.pl-30 {
+  padding-left: 30px;
+}
+
+/* line 59, ../sass/index.scss */
+.pl-40 {
+  padding-left: 40px;
+}
+
+/* line 60, ../sass/index.scss */
+.pt-40 {
+  padding-top: 40px;
+}
+
+/* line 61, ../sass/index.scss */
+.pt-60 {
+  padding-top: 60px;
+}
+
+/* line 63, ../sass/index.scss */
+.w-20p {
+  width: 16%;
+}
+
+/* line 64, ../sass/index.scss */
+.w-25p {
+  width: 20%;
+}
+
+/* line 65, ../sass/index.scss */
+.w-30p {
+  width: 28%;
+}
+
+/* line 66, ../sass/index.scss */
+.w-33p {
+  width: 31%;
+}
+
+/* line 67, ../sass/index.scss */
+.w-40p {
+  width: 38%;
+}
+
+/* line 68, ../sass/index.scss */
+.w-50p {
+  width: 48%;
+}
+
+/* line 69, ../sass/index.scss */
+.w-60p {
+  width: 58%;
+}
+
+/* line 70, ../sass/index.scss */
+.w-70p {
+  width: 68%;
+}
+
+/* line 71, ../sass/index.scss */
+.w-100p {
+  width: 100%;
+}
+
+/* line 72, ../sass/index.scss */
+.w-100 {
+  width: 100px;
+}
+
+/* line 74, ../sass/index.scss */
+.h-100p {
+  height: 100%;
+}
+
+/* line 76, ../sass/index.scss */
+.h-0 {
+  height: 0;
+}
+
+/* line 77, ../sass/index.scss */
+.h-60 {
+  height: 60px;
+}
+
+/* line 78, ../sass/index.scss */
+.h-70 {
+  height: 70px;
+}
+
+/* line 79, ../sass/index.scss */
+.mh-100p {
+  min-height: 100%;
+}
+
+/* line 80, ../sass/index.scss */
+.h-auto {
+  height: auto !important;
+}
+
+/* line 81, ../sass/index.scss */
+.menu-open {
+  height: 265px !important;
+}
+
+/* line 83, ../sass/index.scss */
+.t-0 {
+  top: 0;
+}
+
+/* line 84, ../sass/index.scss */
+.t-10 {
+  top: 10px;
+}
+
+/* line 85, ../sass/index.scss */
+.t-20 {
+  top: 20px;
+}
+
+/* line 86, ../sass/index.scss */
+.l-0 {
+  left: 0;
+}
+
+/* line 87, ../sass/index.scss */
+.l-10 {
+  left: 10px;
+}
+
+/* line 88, ../sass/index.scss */
+.r-20 {
+  right: 20px;
+}
+
+/* line 89, ../sass/index.scss */
+.b-0 {
+  bottom: 0;
+}
+
+/* line 91, ../sass/index.scss */
+.p-fixed {
+  position: fixed;
+}
+
+/* line 92, ../sass/index.scss */
+.p-abs {
+  position: absolute;
+}
+
+/* line 94, ../sass/index.scss */
+.fl-left, .icons-grid li span, .icons-list li span {
+  float: left;
+}
+
+/* line 95, ../sass/index.scss */
+.fl-right {
+  float: right;
+}
+
+/* line 97, ../sass/index.scss */
+.bg-red {
+  background-color: #ff0000;
+}
+
+/* line 98, ../sass/index.scss */
+.bg-black {
+  background-color: #000;
+}
+
+/* line 99, ../sass/index.scss */
+.bg-gray {
+  background-color: #363636;
+}
+
+/* line 100, ../sass/index.scss */
+.bg-smoke {
+  background-image: url(../images/bg_full.jpg);
+  background-attachment: fixed;
+}
+
+/* line 101, ../sass/index.scss */
+.bgs-contain {
+  background-size: contain;
+}
+
+/* line 102, ../sass/index.scss */
+.bgs-cover {
+  background-size: cover;
+}
+
+/* line 103, ../sass/index.scss */
+.bgp-center {
+  background-position: center;
+}
+
+/* line 105, ../sass/index.scss */
+.btm-0 {
+  bottom: 0;
+}
+
+/* line 106, ../sass/index.scss */
+.btm-10 {
+  bottom: 10px;
+}
+
+/* line 108, ../sass/index.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 110, ../sass/index.scss */
+.fs-12 {
+  font-size: 12px;
+}
+
+/* line 111, ../sass/index.scss */
+.fs-13 {
+  font-size: 13px;
+}
+
+/* line 112, ../sass/index.scss */
+.fs-14 {
+  font-size: 14px;
+}
+
+/* line 113, ../sass/index.scss */
+.fs-15 {
+  font-size: 15px;
+}
+
+/* line 114, ../sass/index.scss */
+.fs-16 {
+  font-size: 16px;
+}
+
+/* line 115, ../sass/index.scss */
+.f-white {
+  color: #ffffff !important;
+}
+
+/* line 117, ../sass/index.scss */
+.txt-center {
+  text-align: center;
+}
+
+/* line 119, ../sass/index.scss */
+.m-top {
+  margin-top: 90px;
+}
+
+/* line 120, ../sass/index.scss */
+.mt-10, .icons-grid li span, .icons-list li span {
+  margin-top: 10px;
+}
+
+/* line 121, ../sass/index.scss */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* line 122, ../sass/index.scss */
+.mr-10 {
+  margin-right: 10px;
+}
+
+/* line 123, ../sass/index.scss */
+.mr-20 {
+  margin-right: 20px;
+}
+
+/* line 124, ../sass/index.scss */
+.ml-10 {
+  margin-left: 10px;
+}
+
+/* line 125, ../sass/index.scss */
+.ml-20 {
+  margin-left: 20px;
+}
+
+/* line 126, ../sass/index.scss */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* line 127, ../sass/index.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 128, ../sass/index.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* line 129, ../sass/index.scss */
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 131, ../sass/index.scss */
+.block {
+  display: block !important;
+}
+
+/* line 132, ../sass/index.scss */
+.o-0 {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+}
+
+/* line 133, ../sass/index.scss */
+.o-1 {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -o-opacity: 1;
+  opacity: 1;
+}
+
+/* line 135, ../sass/index.scss */
+.lb-number {
+  display: none !important;
+}
+
+/* line 137, ../sass/index.scss */
+.close {
+  background: url(../images/close_modal.png) no-repeat;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+/* line 146, ../sass/index.scss */
+.download-big {
+  background: url(../images/bt_download_home.png) no-repeat;
+  width: 207px;
+  height: 37px;
+  cursor: pointer;
+}
+
+/* line 154, ../sass/index.scss */
+.download-small {
+  background: url(../images/bt_download_musicas.png) no-repeat;
+  width: 167px;
+  height: 27px;
+  cursor: pointer;
+}
+
+/* line 162, ../sass/index.scss */
+.download-press {
+  background: url(../images/bt_downloadpress.png) no-repeat;
+  width: 113px;
+  height: 27px;
+  cursor: pointer;
+}
+
+/* line 169, ../sass/index.scss */
+.download-big:hover {
+  background: url(../images/bt_download_home_over.png) no-repeat;
+}
+
+/* line 170, ../sass/index.scss */
+.download-small:hover {
+  background: url(../images/bt_download_musicas_over.png) no-repeat;
+}
+
+/* line 171, ../sass/index.scss */
+.download-press:hover {
+  background: url(../images/bt_downloadpress_over.png) no-repeat;
+}
+
+/** LINE **/
+/* line 175, ../sass/index.scss */
+.line, .line-light {
+  height: 1px;
+  width: 100%;
+  bottom: 16px;
+  background-color: #87877e;
+}
+
+/* line 183, ../sass/index.scss */
+.line-light {
+  background-color: #f9fae7;
+}
+
+/** HEADER **/
+/* line 192, ../sass/index.scss */
+.header {
+  padding: 16px;
+  height: 38px;
+  left: 0;
+  right: 0;
+  z-index: 160;
+}
+/* line 200, ../sass/index.scss */
+.header .logo {
+  margin-right: 20px;
+}
+
+/** MAIN MENU **/
+/* line 209, ../sass/index.scss */
+.main-menu {
+  margin-top: 19px;
+}
+/* line 213, ../sass/index.scss */
+.main-menu .menu-social {
+  display: none;
+}
+/* line 215, ../sass/index.scss */
+.main-menu .menu li:after {
+  content: '';
+  display: inline-block;
+  background: url(../images/bolinha_menu.png) center no-repeat;
+  width: 20px;
+  height: 10px;
+}
+/* line 225, ../sass/index.scss */
+.main-menu .menu li.last:after {
+  width: 0;
+}
+
+/* line 230, ../sass/index.scss */
+.menu li {
+  float: left;
+}
+/* line 232, ../sass/index.scss */
+.menu .selected {
+  color: #f9fae7;
+}
+
+/** MENU SOCIAL WITH ICONS **/
+/* line 239, ../sass/index.scss */
+.menu-icons li, .icons-block li, .icons-grid li, .icons-list li {
+  position: relative;
+}
+/* line 243, ../sass/index.scss */
+.menu-icons li span, .icons-block li span, .icons-grid li span, .icons-list li span {
+  display: block;
+  line-height: 12px;
+}
+/* line 252, ../sass/index.scss */
+.menu-icons li:before, .icons-block li:before, .icons-grid li:before, .icons-list li:before {
+  content: '';
+  display: block;
+  background-color: #000;
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+/* line 265, ../sass/index.scss */
+.menu-icons a, .icons-block a, .icons-grid a, .icons-list a {
+  /* 		display: block; */
+  color: #f9fae7;
+}
+/* line 270, ../sass/index.scss */
+.menu-icons a:hover, .icons-block a:hover, .icons-grid a:hover, .icons-list a:hover {
+  color: #2a2929;
+}
+
+/* line 275, ../sass/index.scss */
+.li-before-list li:before, .icons-grid li:before, .icons-list li:before {
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+/* line 283, ../sass/index.scss */
+.icons-block {
+  /* ul, li{ height: 100%; } */
+}
+/* line 288, ../sass/index.scss */
+.icons-block li {
+  width: 70px;
+  height: 100%;
+  border-right: 1px solid #434242;
+}
+/* line 294, ../sass/index.scss */
+.icons-block li span {
+  width: 100%;
+}
+
+/* line 304, ../sass/index.scss */
+.icons-grid {
+  /* ul, li{ height: 100%; } */
+}
+/* line 311, ../sass/index.scss */
+.icons-grid li {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+/* line 330, ../sass/index.scss */
+.icons-list {
+  /* ul, li{ height: 100%; } */
+}
+/* line 337, ../sass/index.scss */
+.icons-list li {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/** FOOTER **/
+/* line 354, ../sass/index.scss */
+.footer {
+  width: 100%;
+  height: 85px;
+}
+/* line 359, ../sass/index.scss */
+.footer .location {
+  margin: 35px 20px;
+  position: relative;
+}
+/* line 360, ../sass/index.scss */
+.footer .location:before {
+  content: "";
+  background: url(../images/local.png) no-repeat;
+  width: 16px;
+  height: 21px;
+  display: block;
+  position: absolute;
+  left: -28px;
+}
+/* line 373, ../sass/index.scss */
+.footer .menu a {
+  color: #f9fae7;
+}
+/* line 374, ../sass/index.scss */
+.footer .menu li:hover {
+  background-color: #2a2929;
+}
+
+/** WRAPPER **/
+/* line 380, ../sass/index.scss */
+.section {
+  position: absolute;
+  min-height: 100%;
+}
+/* line 385, ../sass/index.scss */
+.section .wrapper {
+  /* background-color: #f00; */
+  width: 1000px;
+  margin: 90px auto 110px auto;
+  clear: both;
+  overflow: hidden;
+}
+
+/** COLUMNS **/
+/* line 399, ../sass/index.scss */
+.col {
+  float: left;
+}
+/* line 403, ../sass/index.scss */
+.col p {
+  line-height: 22px;
+  text-align: justify;
+}
+
+/** CONTENT **/
+/* line 408, ../sass/index.scss */
+.title {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+/** HOME **/
+/* line 417, ../sass/index.scss */
+.bg-home {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 85px;
+  top: 0;
+  bottom: 0;
+  background: url(../images/bg_home.png) no-repeat left;
+  background-size: cover;
+  z-index: 50;
+  /* display: none; */
+}
+
+/* line 436, ../sass/index.scss */
+.home {
+  /* width: 300px; */
+  /* margin: $header-height + 20 60px 0 0; */
+  /* float: right; */
+}
+/* line 438, ../sass/index.scss */
+.home .content {
+  width: 370px;
+  position: relative;
+  z-index: 150;
+  /* right: 0; */
+}
+/* line 447, ../sass/index.scss */
+.home .song-list {
+  margin-top: -10px;
+}
+
+/** LETRAS **/
+/* line 461, ../sass/index.scss */
+.lyrics {
+  z-index: 160;
+  display: none;
+}
+/* line 466, ../sass/index.scss */
+.lyrics span {
+  display: block;
+  font-size: 20px;
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #363636;
+}
+
+/* line 478, ../sass/index.scss */
+.see-lyrics {
+  background: url(../images/verletras.png) no-repeat;
+  width: 69px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/** LIST **/
+/* line 488, ../sass/index.scss */
+.list {
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+/* line 493, ../sass/index.scss */
+.list a {
+  color: #f9fae7;
+}
+/* line 494, ../sass/index.scss */
+.list a:hover {
+  color: #2a2929;
+}
+/* line 496, ../sass/index.scss */
+.list li {
+  position: relative;
+}
+/* line 498, ../sass/index.scss */
+.list span {
+  margin-left: 22px;
+}
+/* line 500, ../sass/index.scss */
+.list li:before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+/* line 512, ../sass/index.scss */
+.list .release:before {
+  background: url(../images/icons/release.png) no-repeat;
+  width: 12px;
+  height: 16px;
+  margin-top: -8px;
+}
+/* line 521, ../sass/index.scss */
+.list .fotos:before {
+  background: url(../images/icons/fotos.png) no-repeat;
+  width: 16px;
+  height: 13px;
+  margin-top: -7px;
+}
+/* line 530, ../sass/index.scss */
+.list .info:before {
+  background: url(../images/icons/info.png) no-repeat;
+  width: 16px;
+  height: 17px;
+  margin-top: -8px;
+}
+/* line 539, ../sass/index.scss */
+.list .tel:before {
+  background: url(../images/icons/cel.png) no-repeat;
+  width: 13px;
+  height: 24px;
+  margin-top: -12px;
+}
+/* line 548, ../sass/index.scss */
+.list .mail:before {
+  background: url(../images/icons/mail.png) no-repeat;
+  width: 16px;
+  height: 11px;
+  margin-top: -6px;
+}
+
+/* line 558, ../sass/index.scss */
+.song-list li:before {
+  background: url(../images/icons/seta_musicas.png) no-repeat;
+}
+
+/**
+	
+	SPRITES
+
+**/
+/* line 571, ../sass/index.scss */
+.menu .facebook:before {
+  background: url(../images/icons/mais_facebook.png) no-repeat;
+}
+/* line 572, ../sass/index.scss */
+.menu .twitter:before {
+  background: url(../images/icons/mais_twitter.png) no-repeat;
+}
+/* line 573, ../sass/index.scss */
+.menu .instagram:before {
+  background: url(../images/icons/mais_instagram.png) no-repeat;
+}
+/* line 574, ../sass/index.scss */
+.menu .soundcloud:before {
+  background: url(../images/icons/mais_soundcloud.png) no-repeat;
+}
+/* line 575, ../sass/index.scss */
+.menu .youtube:before {
+  background: url(../images/icons/mais_youtube.png) no-repeat;
+}
+/* line 576, ../sass/index.scss */
+.menu .flickr:before {
+  background: url(../images/icons/mais_flickr.png) no-repeat;
+}
+/* line 577, ../sass/index.scss */
+.menu .googleplus:before {
+  background: url(../images/icons/mais_gplus.png) no-repeat;
+}
+/* line 578, ../sass/index.scss */
+.menu .monotune:before {
+  background: url(../images/icons/mais_monotune.png) no-repeat;
+}
+/* line 579, ../sass/index.scss */
+.menu .vimeo:before {
+  background: url(../images/icons/mais_vimeo.png) no-repeat;
+}
+/* line 580, ../sass/index.scss */
+.menu .bandcamp:before {
+  background: url(../images/icons/bandcamp.png) no-repeat;
+}
+/* line 581, ../sass/index.scss */
+.menu .myspace:before {
+  background: url(../images/icons/mais_myspace.png) no-repeat;
+}
+
+/**
+
+	MEDIA QUERIES
+
+**/
+/** DESCE MAIN MENU **/
+@media screen and (max-width: 1000px) {
+  /* line 594, ../sass/index.scss */
+  .main-menu {
+    position: absolute;
+    top: 62px;
+    width: 100%;
+    background-color: #363636;
+    margin-left: -16px;
+    margin-top: 0;
+    /* padding-left: 16px; */
+  }
+  /* line 604, ../sass/index.scss */
+  .main-menu .menu {
+    float: left;
+    padding-left: 16px;
+  }
+  /* line 610, ../sass/index.scss */
+  .main-menu .menu li {
+    padding-bottom: 9px;
+  }
+
+  /* line 616, ../sass/index.scss */
+  .section {
+    min-height: 100%;
+  }
+  /* line 620, ../sass/index.scss */
+  .section .wrapper {
+    width: 93%;
+    margin-top: 110px;
+  }
+
+  /* line 629, ../sass/index.scss */
+  .icons-list li, .icons-grid li {
+    width: 100%;
+  }
+}
+/** CELULAR **/
+@media screen and (max-width: 600px) {
+  /* line 639, ../sass/index.scss */
+  .bg-smoke {
+    background-color: #657471;
+  }
+
+  /* line 641, ../sass/index.scss */
+  .bg-home {
+    /* height: 650px; */
+    margin: 0;
+    /* margin-top:-50px; */
+    background-position-x: -400px;
+  }
+
+  /* .fl-right{ clear: both; float: none; } */
+  /* line 645, ../sass/index.scss */
+  .footer, .presskit-icon {
+    display: none;
+  }
+
+  /* line 647, ../sass/index.scss */
+  .header {
+    height: 30px;
+    position: absolute;
+  }
+  /* line 652, ../sass/index.scss */
+  .header .bt-menu-mobile {
+    width: 30px;
+    height: 30px;
+    background-color: #87877e;
+    position: absolute;
+    right: 12px;
+    bottom: 18px;
+    border-radius: 50%;
+  }
+  /* line 666, ../sass/index.scss */
+  .header .bt-menu-mobile:before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 15px;
+    border-top: 2px solid #2a2929;
+    margin-top: 9px;
+    margin-left: 8px;
+  }
+  /* line 677, ../sass/index.scss */
+  .header .bt-menu-mobile:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 15px;
+    border-top: 2px solid #2a2929;
+    border-bottom: 2px solid #2a2929;
+    margin-left: 8px;
+  }
+  /* line 688, ../sass/index.scss */
+  .header .line, .header .line-light {
+    width: 85%;
+  }
+
+  /* line 692, ../sass/index.scss */
+  .section {
+    /* height: auto;
+    top: 0;
+    bottom: 0; */
+    /* min-height: 600px; */
+  }
+  /* line 699, ../sass/index.scss */
+  .section .wrapper {
+    margin-top: 90px;
+    margin-bottom: 10px;
+  }
+
+  /* line 708, ../sass/index.scss */
+  .main-menu {
+    /* display: none; */
+    overflow: hidden;
+    height: 0;
+  }
+  /* line 714, ../sass/index.scss */
+  .main-menu .menu-social {
+    display: block;
+    float: right;
+    color: #87877e;
+  }
+  /* line 716, ../sass/index.scss */
+  .main-menu ul {
+    width: 45%;
+  }
+
+  /* line 726, ../sass/index.scss */
+  .menu li {
+    clear: both;
+  }
+  /* line 728, ../sass/index.scss */
+  .menu li:after {
+    width: 0 !important;
+  }
+
+  /* line 732, ../sass/index.scss */
+  .logo img {
+    width: 230px;
+  }
+
+  /* line 734, ../sass/index.scss */
+  .home .content {
+    width: 80%;
+    margin: 0 auto;
+    clear: both;
+    float: none;
+  }
+
+  /* line 736, ../sass/index.scss */
+  .capa {
+    width: 100%;
+  }
+
+  /* .title{ font-size: 20px; } */
+  /* line 739, ../sass/index.scss */
+  .lyrics {
+    padding: 40px 0;
+  }
+  /* line 743, ../sass/index.scss */
+  .lyrics .col {
+    width: 80%;
+  }
+  /* line 744, ../sass/index.scss */
+  .lyrics .pt-60 {
+    padding-top: 0;
+  }
+
+  /* line 748, ../sass/index.scss */
+  .col {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /** menu icons **/
+  	/* .icons-list li{
+  
+  		width: 100%;
+  
+  	} */
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) and (orientation: landscape) {
+  /* line 766, ../sass/index.scss */
+  .section {
+    background-position-x: -60px;
+    background-position-y: 62px;
+  }
+}
+/** BG HOME **/
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* line 778, ../sass/index.scss */
+  .bg-home {
+    background-position-x: -200px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  /* line 783, ../sass/index.scss */
+  .bg-home {
+    background-position-x: -300px;
+  }
+}
