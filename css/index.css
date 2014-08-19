@@ -1086,3 +1086,27 @@ html .lb-data .lb-caption {
   float: none;
   width: 640px;
 }
+
+.tumblr-posts .tumblr_post {
+  background: #fafae6;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tumblr-posts .tumblr_post em {
+  font-style: italic;
+}
+
+.tumblr-posts .tumblr_title,
+.tumblr-posts .tumblr_body {
+  color: #353535
+}
+
+.tumblr-posts .tumblr_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tumblr-posts .tumblr_body {
+  font-size: 14px;
+}
