@@ -398,10 +398,12 @@ a:hover {
 
 /* line 146, ../sass/index.scss */
 .download-big {
+  display: block;
   background: url(../images/bt_download_home.png) no-repeat;
   width: 207px;
   height: 37px;
   cursor: pointer;
+  text-indent: -999px;
 }
 
 /* line 154, ../sass/index.scss */
