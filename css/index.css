@@ -649,7 +649,7 @@ a:hover {
   margin-bottom: 65px;
   top: 0;
   bottom: 0;
-  background: url(../images/bg_home.png) no-repeat left;
+  background: url(../images/bg_home_full.jpg) no-repeat left;
   background-size: cover;
   z-index: 50;
   /* display: none; */
