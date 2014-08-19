@@ -1094,7 +1094,7 @@ html .lb-data .lb-caption {
 }
 
 .tumblr-posts .tumblr_post {
-  background: #fafae6;
+  background: #41494e;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -1105,7 +1105,7 @@ html .lb-data .lb-caption {
 
 .tumblr-posts .tumblr_title,
 .tumblr-posts .tumblr_body {
-  color: #353535
+  color: #fafae6
 }
 
 .tumblr-posts .tumblr_title {
