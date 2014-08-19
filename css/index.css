@@ -408,10 +408,12 @@ a:hover {
 
 /* line 154, ../sass/index.scss */
 .download-small {
+  display: block;
   background: url(../images/bt_download_musicas.png) no-repeat;
   width: 167px;
   height: 27px;
   cursor: pointer;
+  text-indent: -999px;
 }
 
 /* line 162, ../sass/index.scss */
