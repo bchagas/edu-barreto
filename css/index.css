@@ -600,11 +600,12 @@ position: relative;
 /* line 373, ../sass/index.scss */
 .footer .menu a {
   height: 100%; 
+   left: 0;
 position: absolute;
 text-align: center; 
  width: 100%; 
 top: 0px; 
-padding-top: 56px;
+padding-top: 46px;
   color: #8d8d84;
 }
 /* line 374, ../sass/index.scss */
