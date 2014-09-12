@@ -545,6 +545,7 @@ a:hover {
 }
 /* line 288, ../sass/index.scss */
 .icons-block li {
+position: relative;
   width: 70px;
   height: 100%;
   border-right: 1px solid #434242;
@@ -598,6 +599,12 @@ a:hover {
 }
 /* line 373, ../sass/index.scss */
 .footer .menu a {
+  height: 100%; 
+position: absolute;
+text-align: center; 
+ width: 100%; 
+top: 0px; 
+padding-top: 56px;
   color: #8d8d84;
 }
 /* line 374, ../sass/index.scss */
