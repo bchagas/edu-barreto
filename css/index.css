@@ -624,7 +624,7 @@ padding-top: 46px;
 .section .wrapper {
   /* background-color: #f00; */
   width: 1000px;
-  margin: 90px auto 55px auto;
+  margin: 90px auto 0 auto;
   clear: both;
   overflow: hidden;
 }
