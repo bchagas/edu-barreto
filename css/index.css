@@ -425,6 +425,7 @@ a:hover {
 .download-small {
   display: block;
   background: url(../images/bt_download_musicas.png) no-repeat;
+  float: left;
   width: 167px;
   height: 27px;
   cursor: pointer;
@@ -834,6 +835,18 @@ padding-top: 46px;
 /* line 575, ../sass/index.scss */
 .menu .youtube:before {
   background: url(../images/icons/mais_youtube.png) no-repeat;
+}
+
+.menu .spotify:before {
+  background: url(../images/icons/spotify.png) no-repeat;
+}
+
+.menu .rdio:before {
+  background: url(../images/icons/rdio.png) no-repeat;
+}
+
+.menu .deezer:before {
+  background: url(../images/icons/deezer.png) no-repeat;
 }
 /* line 576, ../sass/index.scss */
 .menu .flickr:before {
