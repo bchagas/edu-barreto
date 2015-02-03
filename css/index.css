@@ -14,6 +14,10 @@ body {
   overflow-x: hidden;
 }
 
+strong {
+  font-weight: bold;
+}
+
 /** ANIMATION **/
 /* line 39, ../sass/index.scss */
 .header *, .section *, .footer * {
@@ -397,13 +401,24 @@ a:hover {
 }
 
 /* line 146, ../sass/index.scss */
-.download-big {
+.download-big,
+.itunes-download {
   display: block;
   background: url(../images/bt_download_home.png) no-repeat;
+  float: left;
   width: 207px;
   height: 37px;
   cursor: pointer;
   text-indent: -999px;
+}
+
+.itunes-download {
+  background: url(../images/itunes-download.png) no-repeat;
+  float: left;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 72px;
 }
 
 /* line 154, ../sass/index.scss */
@@ -724,6 +739,7 @@ padding-top: 46px;
 /* line 496, ../sass/index.scss */
 .list li {
   position: relative;
+  line-height: 22px;
 }
 /* line 498, ../sass/index.scss */
 .list span {
