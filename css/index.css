@@ -31,7 +31,7 @@ strong {
 /** GENERAL **/
 /* line 49, ../sass/index.scss */
 p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /* line 50, ../sass/index.scss */
@@ -288,12 +288,12 @@ a:hover {
 
 /* line 112, ../sass/index.scss */
 .fs-14 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* line 113, ../sass/index.scss */
 .fs-15 {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /* line 114, ../sass/index.scss */
@@ -318,7 +318,7 @@ a:hover {
 
 /* line 120, ../sass/index.scss */
 .mt-10, .icons-grid li span, .icons-list li span {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 /* line 121, ../sass/index.scss */
@@ -417,7 +417,7 @@ a:hover {
   float: left;
   height: 24px;
   margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 0px;
   width: 72px;
 }
 
@@ -578,7 +578,7 @@ position: relative;
 /* line 311, ../sass/index.scss */
 .icons-grid li {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* line 330, ../sass/index.scss */
@@ -588,7 +588,7 @@ position: relative;
 /* line 337, ../sass/index.scss */
 .icons-list li {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /** FOOTER **/
@@ -659,8 +659,8 @@ padding-top: 46px;
 /** CONTENT **/
 /* line 408, ../sass/index.scss */
 .title {
-  font-size: 24px;
-  padding-bottom: 8px;
+  font-size: 20px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #fff;
 }
 
