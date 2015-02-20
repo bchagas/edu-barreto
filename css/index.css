@@ -553,7 +553,7 @@ a:hover {
 
 /* line 275, ../sass/index.scss */
 .li-before-list li:before, .icons-grid li:before, .icons-list li:before {
-  margin: 0 10px 0 0;
+  margin: 0 2px 0 0;
   float: left;
 }
 
