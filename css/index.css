@@ -1130,6 +1130,10 @@ html .lb-data .lb-caption {
   font-weight: normal;
 }
 
+.noticias {
+  padding-bottom: 150px;
+}
+
 .tumblr-posts {
   display: block;
   margin: 0 auto;
@@ -1159,4 +1163,18 @@ html .lb-data .lb-caption {
 
 .tumblr-posts .tumblr_body {
   font-size: 14px;
+}
+
+.more {
+  background: url("../images/bt_noticias.png") center center no-repeat transparent;
+  display: block;
+  float: right;
+  text-indent: -9999px;
+  font-size: 0;
+  height: 37px;
+  width: 270px;
+}
+
+.more:hover {
+  background: url("../images/bt_noticias_mouseover.png") center center no-repeat transparent;
 }
