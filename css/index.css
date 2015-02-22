@@ -824,23 +824,23 @@ padding-top: 42px;
 **/
 /* line 571, ../sass/index.scss */
 .menu .facebook:before {
-  background: url(../images/icons/mais_facebook.png) no-repeat;
+  background: url(../images/icons/facebook.png) no-repeat;
 }
 /* line 572, ../sass/index.scss */
 .menu .twitter:before {
-  background: url(../images/icons/mais_twitter.png) no-repeat;
+  background: url(../images/icons/twitter.png) no-repeat;
 }
 /* line 573, ../sass/index.scss */
 .menu .instagram:before {
-  background: url(../images/icons/mais_instagram.png) no-repeat;
+  background: url(../images/icons/instagram.png) no-repeat;
 }
 /* line 574, ../sass/index.scss */
 .menu .soundcloud:before {
-  background: url(../images/icons/mais_soundcloud.png) no-repeat;
+  background: url(../images/icons/soundcloud.png) no-repeat;
 }
 /* line 575, ../sass/index.scss */
 .menu .youtube:before {
-  background: url(../images/icons/mais_youtube.png) no-repeat;
+  background: url(../images/icons/youtube.png) no-repeat;
 }
 
 .menu .spotify:before {
@@ -856,19 +856,19 @@ padding-top: 42px;
 }
 /* line 576, ../sass/index.scss */
 .menu .flickr:before {
-  background: url(../images/icons/mais_flickr.png) no-repeat;
+  background: url(../images/icons/flickr.png) no-repeat;
 }
 /* line 577, ../sass/index.scss */
 .menu .googleplus:before {
-  background: url(../images/icons/mais_gplus.png) no-repeat;
+  background: url(../images/icons/gplus.png) no-repeat;
 }
 /* line 578, ../sass/index.scss */
 .menu .monotune:before {
-  background: url(../images/icons/mais_monotune.png) no-repeat;
+  background: url(../images/icons/monotune.png) no-repeat;
 }
 /* line 579, ../sass/index.scss */
 .menu .vimeo:before {
-  background: url(../images/icons/mais_vimeo.png) no-repeat;
+  background: url(../images/icons/vimeo.png) no-repeat;
 }
 /* line 580, ../sass/index.scss */
 .menu .bandcamp:before {
@@ -876,7 +876,7 @@ padding-top: 42px;
 }
 /* line 581, ../sass/index.scss */
 .menu .myspace:before {
-  background: url(../images/icons/mais_myspace.png) no-repeat;
+  background: url(../images/icons/myspace.png) no-repeat;
 }
 
 /**
