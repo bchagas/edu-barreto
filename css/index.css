@@ -879,6 +879,10 @@ padding-top: 42px;
   background: url(../images/icons/myspace.png) no-repeat;
 }
 
+.menu .itunes:before {
+  background: url(../images/icons/itunes.png) no-repeat;
+}
+
 /**
 
 	MEDIA QUERIES
