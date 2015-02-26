@@ -851,6 +851,10 @@ padding-top: 42px;
   background: url(../images/icons/rdio.png) no-repeat;
 }
 
+.menu .grooveshark:before {
+  background: url(../images/icons/grooveshark.png) no-repeat;
+}
+
 .menu .deezer:before {
   background: url(../images/icons/deezer.png) no-repeat;
 }
