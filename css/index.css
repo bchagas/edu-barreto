@@ -381,10 +381,10 @@ a:hover {
 
 /* line 133, ../sass/index.scss */
 .o-1 {
-  -webkit-opacity: 0.90;
-  -moz-opacity: 0.90;
-  -o-opacity: 0.90;
-  opacity: 0.90;
+  -webkit-opacity: 100;
+  -moz-opacity: 100;
+  -o-opacity: 100;
+  opacity: 100;
 }
 
 /* line 135, ../sass/index.scss */
@@ -705,6 +705,13 @@ padding-top: 42px;
 .lyrics {
   z-index: 160;
   display: none;
+}
+
+.lyrics .content {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 300px;
 }
 /* line 466, ../sass/index.scss */
 .lyrics span {
