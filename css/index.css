@@ -528,7 +528,7 @@ a:hover {
 /* line 243, ../sass/index.scss */
 .menu-icons li span, .icons-block li span, .icons-grid li span, .icons-list li span {
   display: block;
-  line-height: 2px;
+  line-height: 1px;
 }
 /* line 252, ../sass/index.scss */
 .menu-icons li:before, .icons-block li:before, .icons-grid li:before, .icons-list li:before {
@@ -604,7 +604,7 @@ position: relative;
 .footer .location {
   margin: 22px 20px;
   position: relative;
-  font-size: 12px;
+  font-size: 11px;
 }
 /* line 360, ../sass/index.scss */
 .footer .location:before {
@@ -614,7 +614,7 @@ position: relative;
   height: 21px;
   display: block;
   position: absolute;
-  left: -22px;
+  left: -17px;
 }
 /* line 373, ../sass/index.scss */
 .footer .menu a {
@@ -806,8 +806,8 @@ padding-top: 42px;
 .list .mail:before {
   background: url(../images/icons/mail.png) no-repeat;
   width: 16px;
-  height: 11px;
-  margin-top: -6px;
+  height: 14px;
+  margin-top: -5px;
 }
 
 /* line 558, ../sass/index.scss */
