@@ -1,3 +1,4 @@
+
 /* Preload images */
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
@@ -23,7 +24,7 @@ body:after {
   text-align: center;
   line-height: 0;
   font-weight: normal;
-}
+  }
 
 .lightbox .lb-image {
   display: block;
@@ -38,6 +39,7 @@ body:after {
 
 .lightbox a img {
   border: none;
+  
 }
 
 .lb-outerContainer {
@@ -107,7 +109,7 @@ body:after {
 }
 
 .lb-nav a.lb-prev {
-  width: 10%;
+  width: 34%;
   left: 0;
   float: left;
   background: url(../images/prev.png) left 48% no-repeat;
@@ -125,7 +127,7 @@ body:after {
 }
 
 .lb-nav a.lb-next {
-  width: 10%;
+  width: 64%;
   right: 0;
   float: right;
   background: url(../images/next.png) right 48% no-repeat;
@@ -203,8 +205,3 @@ body:after {
   transition: opacity 0.2s;
 }
 
-.lb-data .lb-close:hover {
-  cursor: pointer;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
