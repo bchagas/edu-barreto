@@ -381,10 +381,10 @@ a:hover {
 
 /* line 133, ../sass/index.scss */
 .o-1 {
-  -webkit-opacity: 100;
-  -moz-opacity: 100;
-  -o-opacity: 100;
-  opacity: 100;
+  -webkit-opacity: 90;
+  -moz-opacity: 90;
+  -o-opacity: 90;
+  opacity: 90;
 }
 
 /* line 135, ../sass/index.scss */
@@ -394,9 +394,9 @@ a:hover {
 
 /* line 137, ../sass/index.scss */
 .close {
-  background: url(../images/close_modal.png) no-repeat;
-  width: 14px;
-  height: 14px;
+  background: url(../images/close.png) no-repeat;
+  width: 27px;
+  height: 27px;
   cursor: pointer;
 }
 
@@ -777,7 +777,7 @@ padding-top: 42px;
   margin-left: 2px;
   width: 12px;
   height: 17px;
-  margin-top: -8px;
+  margin-top: -9px;
 }
 
 /* line 521, ../sass/index.scss */
@@ -785,7 +785,7 @@ padding-top: 42px;
   background: url(../images/icons/fotos.png) no-repeat;
   width: 16px;
   height: 14px;
-  margin-top: -7px;
+  margin-top: -8px;
 }
 /* line 530, ../sass/index.scss */
 .list .info:before {
@@ -1193,4 +1193,19 @@ html .lb-data .lb-caption {
 
 .more:hover {
   background: url("../images/bt_noticias_mouseover.png") center center no-repeat transparent;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+.lb-nav a.lb-prev {
+display: none
+}
+
+.lb-nav a.lb-next {
+display: none
 }
